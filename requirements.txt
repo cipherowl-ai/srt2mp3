@@ -1,0 +1,15 @@
+# Core dependencies
+pysrt>=1.1.2      # For parsing SRT files
+pydub>=0.25.1     # For audio manipulation
+openai>=1.14.0    # For OpenAI API access
+
+# Environment and CLI
+python-dotenv>=1.0.0  # For .env file handling
+argparse>=1.4.0      # For command line argument parsing
+
+# Additional dependencies for pydub
+ffmpeg-python>=0.2.0  # For audio processing
+
+# System Requirements
+# Note: These need to be installed via system package manager (apt, brew, etc.)
+# - ffmpeg (required by pydub for audio processing)

@@ -1,0 +1,6 @@
+# Required variables
+OPENAI_API_KEY=sk-svcacct-xxx
+# Optional variables with defaults
+OPENAI_VOICE=alloy  # Options: alloy, echo, fable, onyx, nova, shimmer
+OPENAI_MODEL=tts-1  # Options: tts-1, tts-1-hd
+RATE_LIMIT=0.5     # Delay between API calls in seconds
